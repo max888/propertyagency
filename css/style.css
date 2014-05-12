@@ -1,0 +1,29 @@
+h1 {
+  color: red;
+}
+
+/*-------------Navbar styling*----------------------*/
+
+.container-fluid {
+  height: 68px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 40;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #353535;
+  margin-left: 40px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: 10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+padding-top: 10px;
+}
+
+
+/*-------------Navbar styling*----------------------/
