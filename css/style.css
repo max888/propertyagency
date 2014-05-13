@@ -2,6 +2,7 @@ h1 {
   color: red;
 }
 
+
 /*-------------Navbar styling*----------------------*/
 
 .navbar-fixed-top, .navbar-fixed-bottom {
@@ -26,6 +27,29 @@ h1 {
 
 
 
+/*-------------Navbar styling*----------------------*/
+
+/*==================image styling=========*/
+
+img.hero-image {
+  width: 100%;
+}
+
+.col-md-12, .col-lg-12 {
+    padding: none;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 
-/*-------------Navbar styling*----------------------/
+/*==================image styling=========*/
+
+
+
+
+
+
+
