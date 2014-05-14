@@ -117,7 +117,7 @@ padding: 3em;
     line-height: 2em;}
 
 .feature-text {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-bottom: 20%;
   margin-left: 15%;
   margin-right: 15%;
@@ -125,17 +125,12 @@ padding: 3em;
 }
 
 
-
-.fa-lightbulb-o:hover {
-  color: yellow;
+.fa-users {
+  color: lightblue;
 }
 
-.fa-users:hover {
-  color: purple;
-}
-
-.fa-picture-o:hover {
-  color: green;
+.fa-picture-o {
+  color: lightcoral;
 }
 
 .feature-image {
@@ -147,12 +142,25 @@ padding: 3em;
 }
 
 
-
-
-.feature {
-  border-bottom: 5px groove lightgrey;
+.feature.nogrey {
+  background-color: white;
 }
 
+.feature {
+  background-color: #e7e7e7;
+}
+
+.stranded {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15%;
+}
 
 
 /*==================Services stying==================*/
