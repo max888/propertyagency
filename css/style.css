@@ -1,5 +1,11 @@
-h1 {
-  color: red;
+@font-face {
+  font-family: BodoniXT;
+  src: 'assets/BodoniXT.ttf';
+}
+
+@font-face {
+  font-family: ChampagneLimousinesBold;
+  src: 'assets/ChampagneLimousinesBold.ttf';
 }
 
 
@@ -7,7 +13,7 @@ h1 {
 
 .navbar-fixed-top, .navbar-fixed-bottom {
   border-radius: 0;
-  height: 68px;
+  height: 83px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -25,15 +31,23 @@ h1 {
   padding-top: 10px;
 }
 
+.navbar-default .navbar-brand {
+color: black;
+font-family: Bodonixt;
+font-size: 36px;
+padding-left: 30px;
+/* height: 100%; */
+}
 
 
 /*-------------Navbar styling*----------------------*/
 
 /*==================image styling=========*/
 
-img.hero-image {
+img {
   width: 100%;
 }
+
 
 .col-md-12, .col-lg-12 {
     padding: none;
@@ -44,12 +58,104 @@ img.hero-image {
   padding-right: 0px;
 }
 
+.overlay{
+  position: absolute;
+  top: 80;
+  left: 33;
+  z-index: 10;
+  display: block;
+  clear: both;
+  font-size: 100px;
+  color: white;
+}
+
+
+
+
 
 /*==================image styling=========*/
 
 
+/*==================Services stying==================*/
+.fa-5x {
+  font-size: 8em;
+  display: block;
+  margin: 0 auto;
+  width: 27%;
+}
+
+.col-lg-4.service {
+padding: 3em;
+}
+
+.col-lg-4.service p {
+  font-size: 1.4em;
+}
+
+.service-text {
+  margin-top: 30px;
+  text-align: justify;
+  padding-left: 34px;
+  padding-right: 34px;
+}
 
 
+.col-lg-12 h4 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row.services {
+  margin-bottom: 100px;
+}
+
+.feature p {
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 2em;}
+
+.feature-text {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+
+
+.fa-lightbulb-o:hover {
+  color: yellow;
+}
+
+.fa-users:hover {
+  color: purple;
+}
+
+.fa-picture-o:hover {
+  color: green;
+}
+
+.feature-image {
+  font-size: 18em;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  margin-top: 18%
+}
+
+
+
+
+.feature {
+  border-bottom: 5px groove lightgrey;
+}
+
+
+
+/*==================Services stying==================*/
 
 
 
